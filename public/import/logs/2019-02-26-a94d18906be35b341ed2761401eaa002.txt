@@ -1,0 +1,167 @@
+Time : 12:51:42
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 523317500, 523319100)' at line 1
+Raw SQL : select * from pca where pca_code in (523310800,523311000,523317700 , 523317600 , 523310300,523310500,523319400 , 523319100,523317500 , 523321600, , 523317500, 523319100)
+
+Time : 12:51:08
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '523318000, 523311600, 523311900, 523312000, 523318200, 523320800)' at line 1
+Raw SQL : select * from pca where pca_code in (523311500, 523311700, 523311800, 523317900. 523318000, 523311600, 523311900, 523312000, 523318200, 523320800)
+
+Time : 12:50:41
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 523323000, 523310600, 523310700, 523310900, 523323000, 523310600, 523310700, 52' at line 1
+Raw SQL : select * from pca where pca_code in (523310600, 523310700, 523310900, , 523323000, 523310600, 523310700, 523310900, 523323000, 523310600, 523310700, 523310900, 523323000, 523310600, 523310700, 523310900, 523323000)
+
+Time : 12:50:39
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 523323000, 523310600, 523310700, 523310900, 523323000, 523310600, 523310700, 52' at line 1
+Raw SQL : select * from pca where pca_code in (523310600, 523310700, 523310900, , 523323000, 523310600, 523310700, 523310900, 523323000, 523310600, 523310700, 523310900, 523323000, 523310600, 523310700, 523310900, 523323000)
+
+Time : 12:50:37
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 523323000, 523310600, 523310700, 523310900, 523323000, 523310600, 523310700, 52' at line 1
+Raw SQL : select * from pca where pca_code in (523310600, 523310700, 523310900, , 523323000, 523310600, 523310700, 523310900, 523323000, 523310600, 523310700, 523310900, 523323000, 523310600, 523310700, 523310900, 523323000)
+
+Time : 12:49:46
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 523323000, 523310600, 523310700, 523310900, 523323000, 523310600, 523310700, 52' at line 1
+Raw SQL : select * from pca where pca_code in (523310600, 523310700, 523310900, , 523323000, 523310600, 523310700, 523310900, 523323000, 523310600, 523310700, 523310900, 523323000, 523310600, 523310700, 523310900, 523323000)
+
+Time : 12:48:46
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500, ' at line 1
+Raw SQL : select * from pca where pca_code in (523311500,  523311700,  523311800,  523317900. 523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500,  523312900)
+
+Time : 12:48:11
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500, ' at line 1
+Raw SQL : select * from pca where pca_code in (523311500,  523311700,  523311800,  523317900. 523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500,  523312900)
+
+Time : 12:48:05
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500, ' at line 1
+Raw SQL : select * from pca where pca_code in (523311500,  523311700,  523311800,  523317900. 523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500,  523312900)
+
+Time : 12:48:02
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500, ' at line 1
+Raw SQL : select * from pca where pca_code in (523311500,  523311700,  523311800,  523317900. 523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500,  523312900)
+
+Time : 12:47:20
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500, ' at line 1
+Raw SQL : select * from pca where pca_code in (523311500,  523311700,  523311800,  523317900. 523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500,  523312900)
+
+Time : 12:46:55
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500, ' at line 1
+Raw SQL : select * from pca where pca_code in (523311500,  523311700,  523311800,  523317900. 523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500,  523312900)
+
+Time : 12:46:52
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500, ' at line 1
+Raw SQL : select * from pca where pca_code in (523311500,  523311700,  523311800,  523317900. 523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500,  523312900)
+
+Time : 12:46:49
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500, ' at line 1
+Raw SQL : select * from pca where pca_code in (523311500,  523311700,  523311800,  523317900. 523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500,  523312900)
+
+Time : 12:46:27
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500, ' at line 1
+Raw SQL : select * from pca where pca_code in (523311500,  523311700,  523311800,  523317900. 523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500,  523312900)
+
+Time : 12:46:25
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500, ' at line 1
+Raw SQL : select * from pca where pca_code in (523311500,  523311700,  523311800,  523317900. 523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500,  523312900)
+
+Time : 12:46:23
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500, ' at line 1
+Raw SQL : select * from pca where pca_code in (523311500,  523311700,  523311800,  523317900. 523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500,  523312900)
+
+Time : 12:46:20
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500, ' at line 1
+Raw SQL : select * from pca where pca_code in (523311500,  523311700,  523311800,  523317900. 523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500,  523312900)
+
+Time : 12:46:18
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500, ' at line 1
+Raw SQL : select * from pca where pca_code in (523311500,  523311700,  523311800,  523317900. 523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500,  523312900)
+
+Time : 12:46:16
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500, ' at line 1
+Raw SQL : select * from pca where pca_code in (523311500,  523311700,  523311800,  523317900. 523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500,  523312900)
+
+Time : 12:46:13
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500, ' at line 1
+Raw SQL : select * from pca where pca_code in (523311500,  523311700,  523311800,  523317900. 523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500,  523312900)
+
+Time : 12:45:40
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500, ' at line 1
+Raw SQL : select * from pca where pca_code in (523311500,  523311700,  523311800,  523317900. 523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500,  523312900)
+
+Time : 12:45:36
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500, ' at line 1
+Raw SQL : select * from pca where pca_code in (523311500,  523311700,  523311800,  523317900. 523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500,  523312900)
+
+Time : 12:44:57
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500, ' at line 1
+Raw SQL : select * from pca where pca_code in (523311500,  523311700,  523311800,  523317900. 523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500,  523312900)
+
+Time : 12:44:52
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500, ' at line 1
+Raw SQL : select * from pca where pca_code in (523311500,  523311700,  523311800,  523317900. 523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500,  523312900)
+
+Time : 12:43:11
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500, ' at line 1
+Raw SQL : select * from pca where pca_code in (523311500,  523311700,  523311800,  523317900. 523318000, 523312700,  523316400,  523316800, 523321400, 523313100,  523313500,  523312900)
+
+Time : 12:42:29
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '523318000)' at line 1
+Raw SQL : select * from pca where pca_code in (523311500,  523311700,  523311800,  523317900. 523318000)
+
+Time : 12:42:16
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '523318000)' at line 1
+Raw SQL : select * from pca where pca_code in (523311500,  523311700,  523311800,  523317900. 523318000)
+
+Time : 12:42:10
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '523318000)' at line 1
+Raw SQL : select * from pca where pca_code in (523311500,  523311700,  523311800,  523317900. 523318000)
+
+Time : 12:41:02
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '523318000)' at line 1
+Raw SQL : select * from pca where pca_code in (523311500,  523311700,  523311800,  523317900. 523318000)
+
+Time : 12:37:13
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Raw SQL : select * from pca where id in ()
+
+Time : 12:37:11
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Raw SQL : select * from pca where id in ()
+
+Time : 12:37:01
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Raw SQL : select * from pca where id in ()
+
+Time : 12:37:00
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Raw SQL : select * from pca where id in ()
+
+Time : 12:36:13
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Raw SQL : select * from pca where id in ()
+
+Time : 12:36:12
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Raw SQL : select * from pca where id in ()
+
+Time : 12:35:32
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Raw SQL : select * from pca where id in ()
+
+Time : 12:35:27
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Raw SQL : select * from pca where id in ()
+
+Time : 12:35:22
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Raw SQL : select * from pca where id in ()
+
+Time : 12:34:34
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Raw SQL : select * from pca where id in ()
+
+Time : 12:32:00
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+Raw SQL : select * from pca where id in ()
+
+Time : 12:31:04
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'PCA' in 'where clause'
+Raw SQL : select * from pca where pca_code in (PCA)
