@@ -57,4 +57,28 @@ function getDivisionIdUsingPca($pcaid) {
 
     return implode(',',array_unique($pcaid));
 }
+function getaggID($num) {
+    global $DB;
+    $sqlexe = $DB->query("select * from agreement where numb='".$num."'");
+    return $sqlexe[0]['id'];
+}
+function getEmpId($empcode) {
+    global $DB;
+    $sqlexe = $DB->query("select * from cms_users where employeeid='".$empcode."'");
+    return $sqlexe[0]['id'];
+}
+function getPCASingleId($pcacode) {
+    global $DB;
+    $sqlexe = $DB->query("select * from pca where pca_code='".$pcacode."'");
+    return $sqlexe[0]['id'];
+}
+function getPCAmapId($agg, $pca) {
+    global $DB;
+    $sqlexe = $DB->query("select * from pca_mapping where agreement_id='".$agg."' and pca_id='".$pca."'");
+    if($sqlexe > 0) {
+        return $sqlexe[0]['id'];
+    } else {
+        return 0;
+    }
+}
 ?>
