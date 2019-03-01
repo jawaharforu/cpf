@@ -23,6 +23,19 @@
                         </div>
                         <div class='form-group header-group-0'>
                             <label class='control-label col-sm-2'>
+                                Agreement No.
+                                <span class='text-danger' title='This field is required'>*</span>
+                            </label>
+                            <div class="col-sm-10">
+                                <input type='text' title="Attachment No."
+                                required    maxlength=255 class='form-control'
+                                name="numb" id="numb" value='<?php echo (isset($agreement->numb))?$agreement->numb:""; ?>'/>
+                            </div>
+                            <div class="text-danger"></div>
+                            <p class='help-block'></p>
+                        </div>
+                        <div class='form-group header-group-0'>
+                            <label class='control-label col-sm-2'>
                                 Attachments
                                 <span class='text-danger' title='This field is required'>*</span>
                             </label>

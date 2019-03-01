@@ -4,7 +4,7 @@ include 'functions.php';
 global $DB;
 set_include_path(get_include_path() . PATH_SEPARATOR . 'Classes/');
 include 'PHPExcel/IOFactory.php';
-$inputFileName = "employe.xlsx";
+$inputFileName = "Employee.xlsx";
 try {
 	$objPHPExcel = PHPExcel_IOFactory::load($inputFileName);
 } catch(Exception $e) {

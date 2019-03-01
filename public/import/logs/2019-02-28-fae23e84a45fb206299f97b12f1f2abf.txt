@@ -1,0 +1,35 @@
+Time : 08:47:10
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '523310700,523310900,523323000,523310600,523310700,523310900,523323000,523310600,' at line 1
+Raw SQL : select * from pca where pca_code in (523310600 523310700,523310900,523323000,523310600,523310700,523310900,523323000,523310600,523310700,523310900,523323000,523310600,523310700,523310900,523323000)
+
+Time : 08:45:10
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '523611800, 523611900, 523612000, 523612100, 523612200, 523612300, 523612400)' at line 1
+Raw SQL : select * from pca where pca_code in (523610100,523610200,523610300,523610400,523610500,523610700,523610800,523610900,523611000,523611100,523611200,523611300,523611400,523611500,523611600,523611700 523611800, 523611900, 523612000, 523612100, 523612200, 523612300, 523612400)
+
+Time : 08:44:54
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '523611800, 523611900, 523612000, 523612100, 523612200, 523612300, 523612400)' at line 1
+Raw SQL : select * from pca where pca_code in (523610100,523610200,523610300,523610400,523610500,523610700,523610800,523610900,523611000,523611100,523611200,523611300,523611400,523611500,523611600,523611700 523611800, 523611900, 523612000, 523612100, 523612200, 523612300, 523612400)
+
+Time : 08:44:49
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '523611800, 523611900, 523612000, 523612100, 523612200, 523612300, 523612400)' at line 1
+Raw SQL : select * from pca where pca_code in (523610100,523610200,523610300,523610400,523610500,523610700,523610800,523610900,523611000,523611100,523611200,523611300,523611400,523611500,523611600,523611700 523611800, 523611900, 523612000, 523612100, 523612200, 523612300, 523612400)
+
+Time : 08:44:44
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '523611800, 523611900, 523612000, 523612100, 523612200, 523612300, 523612400)' at line 1
+Raw SQL : select * from pca where pca_code in (523610100,523610200,523610300,523610400,523610500,523610700,523610800,523610900,523611000,523611100,523611200,523611300,523611400,523611500,523611600,523611700 523611800, 523611900, 523612000, 523612100, 523612200, 523612300, 523612400)
+
+Time : 08:41:58
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '523611700 523611800, 523611900, 523612000, 523612100, 523612200, 523612300, 5236' at line 1
+Raw SQL : select * from pca where pca_code in (523610100,523610200,523610300,523610400,523610500,523610700,523610800,523610900,523611000,523611100,523611200,523611300,523611400,523611500,523611600 523611700 523611800, 523611900, 523612000, 523612100, 523612200, 523612300, 523612400)
+
+Time : 06:29:00
+SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'pca_id' at row 1
+Raw SQL : insert into pca_mapping (agreement_id,pca_id,verify,approval,verifier_user_id,approver_user_id) values ('55','','2','2','63,94','168,172');
+
+Time : 06:25:19
+SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'agreement_id' at row 1
+Raw SQL : insert into pca_mapping (agreement_id,pca_id,verify,approval,verifier_user_id,approver_user_id) values ('','4','2','2','70,95','114,153');
+
+Time : 06:20:00
+SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'agreement_id' at row 1
+Raw SQL : insert into pca_mapping (agreement_id,pca_id,verify,approval,verifier_user_id,approver_user_id) values ('','4','2','2','70,95','114,153');

@@ -19,7 +19,7 @@
 			$this->button_action_style = "button_icon";
 			$this->button_add = true;
 			$this->button_edit = true;
-			$this->button_delete = true;
+			$this->button_delete = false;
 			$this->button_detail = false;
 			$this->button_show = false;
 			$this->button_filter = true;
@@ -33,6 +33,7 @@
 			# START COLUMNS DO NOT REMOVE THIS LINE
 			$this->col = [];
 			$this->col[] = ["label"=>"Agreement Name","name"=>"agreement_name"];
+			$this->col[] = ["label"=>"Agreement No.","name"=>"numb"];
             $this->col[] = ["label"=>"Attachment","name"=>"attachment_id", "callback"=>function($row) {
                 $attachments = DB::table('attachment')->whereIn('id', explode(",",$row->attachment_id))->get()->all();
                 foreach($attachments as $attach) {
@@ -45,6 +46,7 @@
 			# START FORM DO NOT REMOVE THIS LINE
 			$this->form = [];
 			$this->form[] = ['label'=>'Agreement Name','name'=>'agreement_name','type'=>'text','validation'=>'required|min:1|max:255','width'=>'col-sm-10'];
+			$this->form[] = ['label'=>'Agreement No.','name'=>'numb','type'=>'text','validation'=>'required|min:1|max:255','width'=>'col-sm-10'];
             //$this->form[] = ['label'=>'Attachment Id','name'=>'attachment_id','type'=>'checkbox','validation'=>'required|min:1|max:255','width'=>'col-sm-10'];
             $this->form[] = ['label'=>'Attachment','name'=>'attachment_id','type'=>'checkbox','validation'=>'required|integer|min:0','width'=>'col-sm-10','datatable'=>'attachment,attachment_name'];
 			# END FORM DO NOT REMOVE THIS LINE
@@ -346,6 +348,7 @@
             } else {
                 $data[] = [
                     'agreement_name' => $result['agreement_name'],
+                    'numb' => $result['numb'],
                     'attachment_id' => implode(",",$result['attachment_id']),
                     'created_at' => date("Y-m-d h:i:s"),
                     'updated_at' => date("Y-m-d h:i:s")
@@ -372,6 +375,7 @@
             } else {
                 $data = [
                     'agreement_name' => $result['agreement_name'],
+                    'numb' => $result['numb'],
                     'attachment_id' => implode(",",$result['attachment_id']),
                     'updated_at' => date("Y-m-d h:i:s")
                 ];

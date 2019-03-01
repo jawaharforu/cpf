@@ -12,7 +12,8 @@ try {
 }
 $allDataInSheet = $objPHPExcel->getActiveSheet()->toArray(null,true,true,true);
 $arrayCount = count($allDataInSheet);
-for($i=2;$i<=10;$i++){
+$numberOf = 0;
+for($i=2;$i<=$arrayCount;$i++){
     $aggid = explode(",",trim($allDataInSheet[$i]["A"]));
     $pca = explode(",",trim($allDataInSheet[$i]["B"]));
     $v1 = getEmpId(trim($allDataInSheet[$i]["C"]));
@@ -33,12 +34,15 @@ for($i=2;$i<=10;$i++){
         $aggrementid = getaggID(trim($aggrementNum));
         foreach($pca as $pcaCode) {
             $pcaid = getPCASingleId(trim($pcaCode));
-            if(getPCAmapId($aggrementid, $pcaid)>0){
-                $qry = "update pca_mapping set verify='$vCount', approval='$aCount', verifier_user_id='".implode(",",$verifier)."', approver_user_id='".implode(",",$approver)."' where agreement_id='".$aggrementid."' and pca_id='".$pcaid."';";
-            } else {
-                $qry = "insert into pca_mapping (agreement_id,pca_id,verify,approval,verifier_user_id,approver_user_id) values ('$aggrementid','$pcaid','$vCount','$aCount','".implode(",",$verifier)."','".implode(",",$approver)."');";
+            if(!empty($pcaid)) {
+                if(getPCAmapId($aggrementid, $pcaid)>0){
+                    $qry = "update pca_mapping set verify='$vCount', approval='$aCount', verifier_user_id='".implode(",",$verifier)."', approver_user_id='".implode(",",$approver)."' where agreement_id='".$aggrementid."' and pca_id='".$pcaid."';";
+                } else {
+                    $qry = "insert into pca_mapping (agreement_id,pca_id,verify,approval,verifier_user_id,approver_user_id) values ('$aggrementid','$pcaid','$vCount','$aCount','".implode(",",$verifier)."','".implode(",",$approver)."');";
+                }
+                $DB->query($qry);
+                echo $i." ".$numberOf++."<br>";
             }
-            $DB->query($qry);
         }
     }
 }
